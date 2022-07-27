@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    gcp:
+      datastore:
+        enabled: true
+        project-id: test
+
+server:
+  shutdown: graceful
